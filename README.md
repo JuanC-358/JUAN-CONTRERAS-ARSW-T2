@@ -1,6 +1,7 @@
 # Escuela Colombiana de Ingeniería Julio Garavito - Arquitecturas de Software ARSW - Parcial Segundo Tercio
 
 ## JUAN PABLO CONTRERAS AMAYA PARCIAL T2 ARSW 
+link heroku: https://contreras-t2-arsw.herokuapp.com/
 Al iniciar el Proyecto Se demorara en cargar la tabla con los casos por pais, se vera algo asi :
 ![](ArchitectureDiagrams/Pais.PNG)
 Luego debera hacer click a alguna fila  y se cargara una tabla al final de la pagina con los casos por ciudad del pais seleccionado;
