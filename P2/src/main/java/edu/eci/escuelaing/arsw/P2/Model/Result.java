@@ -5,11 +5,13 @@
  */
 package edu.eci.escuelaing.arsw.P2.Model;
 
+import java.io.Serializable;
+
 /**
  *
  * @author ADMIN
  */
-public class Result {
+public class Result implements Serializable{
     private String city;
     private String province;
     private String country;
