@@ -14,7 +14,7 @@ function Load(){
     $.ajax(settings).done(function (response) {
         for(var i = 0;i<response.data.covid19Stats.length;i++)
         {
-            var pais=response.data.covid19Stats[i].country ;
+            var pais=response.data.covid19Stats[i].country.toString() ;
             var tblRow = "<tr onclick='myFunction("+pais+")'>"+ "<td>" + response.data.covid19Stats[i].country + "</td>" +
                  "<td>" + response.data.covid19Stats[i].deaths + "</td>" + "<td>" + response.data.covid19Stats[i].confirmed+ "</td>" + "<td>" + response.data.covid19Stats[i].recovered + "</td>" + "</tr>"
                  $(tblRow).appendTo("#userdata tbody");
