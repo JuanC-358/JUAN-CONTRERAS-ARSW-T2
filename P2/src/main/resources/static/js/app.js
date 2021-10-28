@@ -24,7 +24,6 @@ function Load(){
 }
 
 function myFunction(x) {
-    window.alert(x);
   const settings = {
 	"async": true,
 	"crossDomain": true,

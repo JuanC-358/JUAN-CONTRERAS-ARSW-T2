@@ -2,6 +2,7 @@
 
 ## JUAN PABLO CONTRERAS AMAYA PARCIAL T2 ARSW 
 link heroku: https://contreras-t2-arsw.herokuapp.com/
+link git : https://github.com/JuanC-358/JUAN-CONTRERAS-ARSW-T2
 Al iniciar el Proyecto Se demorara en cargar la tabla con los casos por pais, se vera algo asi :
 ![](ArchitectureDiagrams/Pais.PNG)
 Luego debera hacer click a alguna fila  y se cargara una tabla al final de la pagina con los casos por ciudad del pais seleccionado;
